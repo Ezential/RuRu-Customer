@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name" translatable="false">Movers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="api_key" translatable="false">AIzaSyBZ6Kv4YWs4aJdZs0iubXpa6_jiHuKiPIk</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="continues">Continue</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="book_now">Book Now</string>
+    <string name="getstarted">Get Started</string>
+
+    <string name="onet">Simplify the way you find carriers.</string>
+    <string name="onest">Search active loads by location and equipment type</string>
+    <string name="twot">Get better rates on every deal.</string>
+    <string name="twost">We offer a wide range of problem-solving products designed to help you ship more freight faster</string>
+    <string name="treet">The right load for the right truck.</string>
+    <string name="treest">We match the right load to the right truck at the right price</string>
+
+    <string name="welcome_back">Welcome back!</string>
+    <string name="let_s_login_continues">Let’s login for explore continues</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="getting_started">Getting Started!</string>
+    <string name="seems_you_profile">Seems you are new here, Let’s set up your profile.</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="referral_code">Referral code</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="country_code">Code</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="resend_code">Resend code?</string>
+    <string name="verify_account">Verify Account</string>
+    <string name="my_load">My Loads</string>
+    <string name="booked_lorries">Booked Lorries</string>
+    <string name="profile">Profile</string>
+
+    <string name="post_loads">Post Loads</string>
+    <string name="post_load">Post Load</string>
+    <string name="load_details">Load Details</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="post">Post</string>
+    <string name="pickup_point">Pickup Point</string>
+    <string name="drop_point">Drop Point</string>
+    <string name="material_name">Material Name</string>
+    <string name="type_of_weight">Number of Tonnes</string>
+    <string name="description">Description</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="amount">Amount</string>
+    <string name="number_of_hours">Number of hours</string>
+    <string name="what_s_your_expected_price">What’s your expected price?</string>
+    <string name="the_number_of_hours_visible_load">The number of hours visible load?</string>
+    <string name="my_loads">My Loads</string>
+    <string name="load">Load</string>
+    <string name="unload">Unload</string>
+    <string name="mycurrentloads">My Current Loads</string>
+    <string name="completed">Completed</string>
+    <string name="pickup">Pickup</string>
+    <string name="date">Date</string>
+    <string name="tonnes">Tonnes</string>
+    <string name="material">Material</string>
+    <string name="bid_response">Bid Response</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="bid_details">Bid Details</string>
+    <string name="accept_amp_pay"><![CDATA[Accept & Pay]]></string>
+    <string name="bidder_information">Bidder Information</string>
+    <string name="payment_information">Payment Information</string>
+    <string name="payment_gateway">Payment Gateway</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="wallet">Wallet</string>
+    <string name="total_payment">Total payment</string>
+    <string name="are_you_you_want_to_delete_bid">Are you you want to delete bid?</string>
+    <string name="if_you_delete_th">If you delete this bid you would \nnot be able to view or bid on this load</string>
+    <string name="yes_continue">Yes, Continue</string>
+    <string name="no">No</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="wallet_information">Wallet information</string>
+    <string name="find_lorry">Find Lorry</string>
+    <string name="date_of_joining">Date of Joining</string>
+    <string name="lorry">Lorry</string>
+    <string name="total_review">Total review</string>
+    <string name="review">Review</string>
+    <string name="route_operating">Route Operating</string>
+    <string name="search">Search</string>
+    <string name="select_vehicle_ty">Select Vehicle type for your load</string>
+    <string name="sent_request">Sent Request</string>
+    <string name="booked_loads">Booked Loads</string>
+    <string name="offer">Offer</string>
+    <string name="lorry_owner_response">Lorry Owner Response</string>
+    <string name="bid_now">Bid Now</string>
+    <string name="enter_your_price">Enter your price</string>
+    <string name="send_offer">Send Offer</string>
+    <string name="no_lord_placed_curr">No Load placed! Currently you don’t have any Loads.</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="proceed">Proceed</string>
+    <string name="update">Update</string>
+    <string name="refer_to_friends">Refer to Friends</string>
+    <string name="share">Share</string>
+    <string name="fix">Fix</string>
+    <string name="hours">Hours</string>
+    <string name="haven_t_uploaded_yet">Haven\'t uploaded yet</string>
+    <string name="uploaded_successfully">Selected Successfully</string>
+    <string name="upload">Upload</string>
+    <string name="rc_verified">RC Verified</string>
+    <string name="routes">Routes</string>
+    <string name="info">Info</string>
+    <string name="balance">Balance</string>
+    <string name="rate_to">Rate to</string>
+    <string name="doyoureject">Do you want to reject ?</string>
+    <string name="enter_your_feedback">Enter your feedback</string>
+    <string name="notification">Notification</string>
+    <string name="load_process">Load Tracking Status</string>
+    <string name="you_required_to">You required to contact the lorry owner for further communication</string>
+    <string name="required_to_msg">You are required to must upload both documents after the submit button appeared</string>
+    <string name="note">Note</string>
+    <string name="operating_routes">Operating routes</string>
+    <string name="since">Since</string>
+    <string name="language">Language</string>
+    <string name="hello">Hello..</string>
+    <string name="notfix">Not Fix</string>
+    <string name="pertonnes">Per Tonnes</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="become_world_s_ntransporter">Become world’s\nTransporter</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="e_wallet">E-Wallet</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="total_earning">Total Earning</string>
+    <string name="pickup_contact_details">Pickup Contact Detail</string>
+    <string name="drop_contact_detail">Drop Contact Detail</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="name">Name</string>
+    <string name="my_self">My Self</string>
+
+
+
+</resources>

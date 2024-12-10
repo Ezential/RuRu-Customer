@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cscodetech.movers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Gallery -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+
+            <data android:mimeType="image/*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK" />
+
+            <data android:mimeType="image/*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.CHOOSER" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.cscodetech.movers.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Movers"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.cscodetech.movers.ui.bkash.BkashPaymenrActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.IdentityVerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.WalletActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.ChanegPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.WalletAddActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.findlorry.BookLorryDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.findlorry.MyBookLoadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.findlorry.SendLorryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.findlorry.FindLorryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.BiderInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.PostLoadDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.MyPostLoadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.PostLoadPostActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.PostLoadVevikalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.postload.PostLoadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.VerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.FaqActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.UNINSTALL_PACKAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <activity
+            android:name="com.cscodetech.movers.ui.HelpDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.ReferActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.FlutterwaveActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.PaypalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.PaystackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.PaytmActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.RazerpayActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.SenangpayActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.StripPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cscodetech.movers.ui.SSLCommerzActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

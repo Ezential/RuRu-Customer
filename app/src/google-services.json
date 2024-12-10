@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594514838150",
+    "project_id": "ruru-customer-app",
+    "storage_bucket": "ruru-customer-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594514838150:android:8852c6d19903c288468707",
+        "android_client_info": {
+          "package_name": "com.ruru.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2SsglbbAMiSkKpNJtg_hHnzQVu3d2bNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

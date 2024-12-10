@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.findlorry.SendLorryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/ic_back_white" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                style="@style/Font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="3.00 Tonne(s) LCV"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:padding="10dp"
+            app:cardCornerRadius="15dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_round_box"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/pickup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_pickup_map"
+                            android:drawablePadding="10dp"
+                            android:hint="@string/pickup_point"
+                            android:minHeight="46dp"
+                            android:padding="10dp"
+                            android:editable="false"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:background="@color/gray0" />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/drop"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_pickup_map"
+                            android:drawablePadding="10dp"
+                            android:editable="false"
+                            android:hint="@string/drop_point"
+                            android:minHeight="46dp"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <EditText
+                        android:id="@+id/ed_materialname"
+                        style="@style/AppTheme.input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_materialname"
+
+                        android:drawablePadding="10dp"
+                        android:hint="@string/material_name" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <EditText
+                        android:id="@+id/ed_typeweight"
+                        style="@style/AppTheme.input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:drawableStart="@drawable/ic_weight"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/type_of_weight" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <EditText
+                        android:id="@+id/ed_description"
+                        style="@style/AppTheme.input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_description"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/description" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_round_box"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/ed_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@android:color/transparent"
+                            android:drawableStart="@drawable/ic_money"
+                            android:drawablePadding="10dp"
+                            android:hint="@string/amount"
+                            android:inputType="number"
+                            android:imeOptions="actionDone"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+
+                        <Switch
+                            android:id="@+id/swichtonne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fix" />
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/pickup_contect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_round_box"
+                        android:drawableStart="@drawable/ic_user_bottom"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/pickup_contact_details"
+                        android:minHeight="46dp"
+                        android:padding="15dp"
+                        android:gravity="center|start"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+
+
+                    <TextView
+                        android:id="@+id/drop_contect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/input_round_box"
+                        android:gravity="center|start"
+                        android:drawableStart="@drawable/ic_user_bottom"
+                        android:drawablePadding="10dp"
+                        android:hint="@string/drop_contact_detail"
+                        android:minHeight="46dp"
+                        android:padding="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+
+                    <TextView
+                        android:id="@+id/btnsendrequest"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+
+
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/sent_request" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>
