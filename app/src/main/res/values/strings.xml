@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name" translatable="false">Movers</string>
+    <string name="app_name" translatable="false">Ruru Customer</string>
     <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="api_key" translatable="false">AIzaSyBZ6Kv4YWs4aJdZs0iubXpa6_jiHuKiPIk</string>
+    <string name="api_key" translatable="false">AIzaSyB_y7MbZxbkRenyX4D5a17EyAdDc-wbKmY</string>
 
     <string name="next">Next</string>
     <string name="skip">Skip</string>

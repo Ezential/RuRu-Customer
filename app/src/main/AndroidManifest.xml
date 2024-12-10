@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cscodetech.movers">
+    package="com.ruru.customer">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -30,7 +30,7 @@
     </queries>
 
     <application
-        android:name="com.cscodetech.movers.MyApplication"
+        android:name="com.ruru.customer.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -42,79 +42,79 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name="com.cscodetech.movers.ui.bkash.BkashPaymenrActivity"
+            android:name="com.ruru.customer.ui.bkash.BkashPaymenrActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.IdentityVerifyActivity"
+            android:name="com.ruru.customer.ui.IdentityVerifyActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.WalletActivity"
+            android:name="com.ruru.customer.ui.WalletActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.ChanegPasswordActivity"
+            android:name="com.ruru.customer.ui.ChanegPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.WalletAddActivity"
+            android:name="com.ruru.customer.ui.WalletAddActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.findlorry.BookLorryDetailsActivity"
+            android:name="com.ruru.customer.ui.findlorry.BookLorryDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.findlorry.MyBookLoadActivity"
+            android:name="com.ruru.customer.ui.findlorry.MyBookLoadActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.findlorry.SendLorryActivity"
+            android:name="com.ruru.customer.ui.findlorry.SendLorryActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.findlorry.FindLorryActivity"
+            android:name="com.ruru.customer.ui.findlorry.FindLorryActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.BiderInfoActivity"
+            android:name="com.ruru.customer.ui.postload.BiderInfoActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.PaymentActivity"
+            android:name="com.ruru.customer.ui.PaymentActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.PostLoadDetailsActivity"
+            android:name="com.ruru.customer.ui.postload.PostLoadDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.MyPostLoadActivity"
+            android:name="com.ruru.customer.ui.postload.MyPostLoadActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.PostLoadPostActivity"
+            android:name="com.ruru.customer.ui.postload.PostLoadPostActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.PostLoadVevikalActivity"
+            android:name="com.ruru.customer.ui.postload.PostLoadVevikalActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.postload.PostLoadActivity"
+            android:name="com.ruru.customer.ui.postload.PostLoadActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.ForgotPasswordActivity"
+            android:name="com.ruru.customer.ui.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.VerificationActivity"
+            android:name="com.ruru.customer.ui.VerificationActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.SignUpActivity"
+            android:name="com.ruru.customer.ui.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.HomeActivity"
+            android:name="com.ruru.customer.ui.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.LoginActivity"
+            android:name="com.ruru.customer.ui.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.NotificationActivity"
+            android:name="com.ruru.customer.ui.NotificationActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.ReviewActivity"
+            android:name="com.ruru.customer.ui.ReviewActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.FaqActivity"
+            android:name="com.ruru.customer.ui.FaqActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.IntroActivity"
+            android:name="com.ruru.customer.ui.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -160,34 +160,34 @@
 
 
         <activity
-            android:name="com.cscodetech.movers.ui.HelpDetailsActivity"
+            android:name="com.ruru.customer.ui.HelpDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.ReferActivity"
+            android:name="com.ruru.customer.ui.ReferActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.FlutterwaveActivity"
+            android:name="com.ruru.customer.ui.FlutterwaveActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.PaypalActivity"
+            android:name="com.ruru.customer.ui.PaypalActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.PaystackActivity"
+            android:name="com.ruru.customer.ui.PaystackActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.PaytmActivity"
+            android:name="com.ruru.customer.ui.PaytmActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.RazerpayActivity"
+            android:name="com.ruru.customer.ui.RazerpayActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.SenangpayActivity"
+            android:name="com.ruru.customer.ui.SenangpayActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.StripPaymentActivity"
+            android:name="com.ruru.customer.ui.StripPaymentActivity"
             android:exported="false" />
         <activity
-            android:name="com.cscodetech.movers.ui.SSLCommerzActivity"
+            android:name="com.ruru.customer.ui.SSLCommerzActivity"
             android:exported="false" />
     </application>
 
